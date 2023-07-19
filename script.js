@@ -26,3 +26,8 @@ buttons.forEach((button, index) => {
       textElementForm.classList.toggle('showTextForm');
       ScrollReveal().reveal('.presForm', {delay: 100});});
   });
+
+
+document.querySelector(".dropdown-container").addEventListener("click",function(){
+  document.querySelector(".dropdown-container ul").classList.toggle("show");
+})

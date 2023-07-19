@@ -1,14 +1,15 @@
-.certificados{
-    margin-top: 3rem;
-    padding: 1rem;
-    text-align: center;    
+.dropdown-container{
+    position: relative;
 }
 
-.certificadosTitulo{
-    font-weight: bold;
+.dropdown-container ul{
+    position: absolute;
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 1s;
 }
 
-.logoOne{
-    width: 30%;
-    border-radius: 24px;
+.dropdown-container:hover ul.show{
+    max-height: 400px;
 }
+
