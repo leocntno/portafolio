@@ -9,7 +9,6 @@
     transition: all 1s;
 }
 
-.dropdown-container:hover ul.show{
+.dropdown-container:hover ul, .dropdown-container ul.show{
     max-height: 400px;
 }
-
