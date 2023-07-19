@@ -1,13 +1,19 @@
-.container{
+.proyectos{
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin-top: 5rem;
 }
 
-.bbva{
-    width: 25%;
-    border-radius: 24px;
+.proyectosTitulo{
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.imgProyectos{
+    margin-top: 2rem;
+    width: 35%;
 }
 
 .pres {
@@ -16,39 +22,62 @@
 
 .pres p{
     font-size: 15px;
-    margin: 10px 30px;
+    margin: 10px;
     text-align: justify;
-    color: #ffffff; 
+    color: #000000; 
     padding: 30px;
     overflow: hidden;
-    border-radius: 35px 35px 35px 35px; 
-    -moz-border-radius: 35px 35px 35px 35px; 
-    -webkit-border-radius: 35px 35px 35px 35px;
-    box-shadow: 0px 0px 10px 0px #f7f7f7;
-    border: 2px solid #ffffff66;
+    border: none;
     font-family: 'Ubuntu', sans-serif;
 }
 
 .read-more-btn {
-    border: 2px solid #ffffff;
-    color: rgb(255, 255, 255);
+    border: none;
     background-color: transparent;
-    border-radius: 40px;
-    padding: 15px 32px;
-    font-size: 1.2em;
-    box-shadow: 0px 0px 10px 0px #f7f7f7;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 2rem;
     cursor: pointer;
-    margin-top: 20px ;
-    
+    color: rgb(5, 31, 43);
   }
   
-.read-more-btn:hover {
-    box-shadow: none;
-    background-color: black;
-    color: #fff;
-    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+.read-more-btn:active {
+    transform: scale(1.3);
 }
   
 .showText {
+    display: block;
+}
+
+.presForm {
+    display: none;
+}
+
+.presForm p{
+    font-size: 15px;
+    margin: 10px 30px;
+    text-align: justify;
+    color: #000000; 
+    padding: 30px;
+    overflow: hidden;
+    border: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.read-more-btn_Form {
+    border: none;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 2rem;
+    cursor: pointer;
+    color: rgb(5, 31, 43);
+  }
+  
+.read-more-btn_Form:active {
+    transform: scale(1.3);
+}
+
+.showTextForm {
     display: block;
 }

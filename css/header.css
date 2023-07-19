@@ -25,7 +25,7 @@ body{
     border: none;
     cursor: pointer;
 }
-.headerBtn:hover{
+.headerBtn:active{
     transform: scale(1.3);
 }
 
