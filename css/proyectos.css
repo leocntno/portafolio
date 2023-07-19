@@ -9,6 +9,7 @@
 .proyectosTitulo{
     font-weight: bold;
     font-size: 1.4rem;
+    margin-bottom: 2rem;
 }
 
 .imgProyectos{
@@ -17,8 +18,14 @@
 }
 
 .imgProyectos:hover{
-    opacity: 70%;
-    box-shadow: 3px 3px 4px 4px rgba(0, 0, 0, 0.5);
+    opacity: 80%;
+    transform: scale(1.1);
+    transition: 300ms;
+}
+
+.tituloProyecto{
+    margin-top: 1rem;
+    padding: 5px;
 }
 
 .pres {
