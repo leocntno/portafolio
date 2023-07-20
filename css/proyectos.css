@@ -29,70 +29,41 @@
     padding: 5px;
 }
 
-.pres {
-    display: none;
+.contenedorProyecto{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.pres p{
-    font-size: 15px;
-    margin: 10px;
-    text-align: justify;
-    color: #000000; 
-    padding: 30px;
+.contenedorProyecto ul{
+    position: relative;
+    max-height: 10px;
     overflow: hidden;
-    border: none;
-    font-family: 'Ubuntu', sans-serif;
+    transition: all 1s;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
-.read-more-btn {
-    border: none;
-    background-color: transparent;
-    border-radius: 10px;
-    padding: 5px;
-    font-size: 2rem;
-    cursor: pointer;
-    color: rgb(5, 31, 43);
-  }
-  
-.read-more-btn:hover {
-    transform: scale(1.3);
-    transition: 300ms;
-}
-  
-.showText {
-    display: block;
+.contenedorProyecto p{
+    width: 350px;
+    padding: 20px;
 }
 
-.presForm {
-    display: none;
+.contenedorProyecto p{
+    color: black;
 }
 
-.presForm p{
-    font-size: 15px;
-    margin: 10px 30px;
-    text-align: justify;
-    color: #000000; 
-    padding: 30px;
-    overflow: hidden;
-    border: none;
-    font-family: 'Ubuntu', sans-serif;
+.tituloProyecto{
+    font-size: 1.2rem;
 }
 
-.read-more-btn_Form {
-    border: none;
-    background-color: transparent;
-    border-radius: 10px;
-    padding: 5px;
-    font-size: 2rem;
-    cursor: pointer;
-    color: rgb(5, 31, 43);
-  }
-  
-.read-more-btn_Form:hover {
-    transform: scale(1.3);
-    transition: 300ms;
+.tituloProyecto:hover{
+    transform: scale(1.2);
+    color: rgba(38, 49, 63, 0.705);
+    font-weight: bold;
 }
 
-.showTextForm {
-    display: block;
+.contenedorProyecto:hover ul, .contenedorProyecto ul.show{
+    max-height: 500px;
 }

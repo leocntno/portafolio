@@ -7,27 +7,11 @@ function toggleMenu() {
       }
   }
 
-
-ScrollReveal().reveal('.container');
-
-const buttons = document.querySelectorAll('.read-more-btn');
-const buttonsForm = document.querySelectorAll('.read-more-btn_Form');
-const textElements = document.querySelectorAll('.pres');
-const textElementsForm = document.querySelectorAll('.presForm');
-
-buttons.forEach((button, index) => {
-  button.addEventListener('click', () => {const textElement = textElements[index];
-    textElement.classList.toggle('showText');
-    ScrollReveal().reveal('.pres', {delay: 100});});
-  });
-
-  buttonsForm.forEach((buttonForm, index) => {
-    buttonForm.addEventListener('click', () => {const textElementForm = textElementsForm[index];
-      textElementForm.classList.toggle('showTextForm');
-      ScrollReveal().reveal('.presForm', {delay: 100});});
-  });
-
-
 document.querySelector(".contenedorCertificados").addEventListener("click",function(){
   document.querySelector(".contenedorCertificados ul").classList.toggle("show");
+})
+
+
+document.querySelector(".contenedorProyecto").addEventListener("click",function(){
+  document.querySelector(".contenedorProyecto h2").classList.toggle("show");
 })
