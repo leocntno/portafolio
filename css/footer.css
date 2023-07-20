@@ -1,0 +1,26 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.5rem;
+    background-color: rgb(4, 30, 48);
+    
+}
+
+.footerSocial {
+    display: flex;
+}
+
+.footerMedia {
+    display: block;
+
+    width: 30px;
+    height: 30px;
+
+    margin: 5rem 1.5rem;
+}
+
+.footerMedia:hover{
+    transform: scale(1.2);
+    transition: 300ms;
+}
