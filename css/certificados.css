@@ -23,10 +23,19 @@
 }
 
 .contenedorCertificados li{
-    padding: 10px;
+    width: 350px;
+    padding: 20px;
     cursor: pointer;
 }
 
+.contenedorCertificados a{
+    color: black;
+}
+
+.linkCertificado:hover{
+    opacity: 70%;
+}
+
 .contenedorCertificados:hover ul, .contenedorCertificados ul.show{
-    max-height: 400px;
+    max-height: 500px;
 }
