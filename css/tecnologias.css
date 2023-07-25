@@ -1,0 +1,28 @@
+.tecnologias{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.contenedorTecnologias{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.tecnologiasItem{
+    padding: 20px;
+}
+
+.tecnologiasItem:hover{
+    transform: scale(1.1);
+    transition: 300ms;
+}
+
+.tecnologiasImg{
+    width: 70px;
+    height: 70px;
+}
