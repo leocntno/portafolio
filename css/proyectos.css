@@ -67,3 +67,18 @@
 .contenedorProyecto:hover ul, .contenedorProyecto ul.show{
     max-height: 500px;
 }
+
+
+@media screen and (min-width: 680px){
+
+    .proyectosContenedor{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+    }
+
+    .contenedorProyecto p{
+        width: 230px;
+    }
+    
+}
