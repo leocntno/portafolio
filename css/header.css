@@ -1,6 +1,11 @@
+*{
+    scroll-behavior: smooth;
+}
+
 body{
     background: rgb(101, 149, 238, .55);
     font-family: 'Bruno Ace SC', cursive;
+    scroll-behavior: smooth;
 }
 
 .header{
