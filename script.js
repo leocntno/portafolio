@@ -13,6 +13,6 @@ document.querySelector(".contenedorProyectoDos").addEventListener("click",functi
 })
 
 
-document.querySelector(".tituloheader").addEventListener("click",function(){
-  document.querySelector(".headerbar nav").classList.toggle("show");
+document.querySelector(".contenedorHeader").addEventListener("click",function(){
+  document.querySelector(".contenedorHeader nav").classList.toggle("show");
 })
