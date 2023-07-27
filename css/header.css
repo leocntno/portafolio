@@ -15,7 +15,7 @@ body{
     font-size: 2rem;
     font-weight: bold;
     color: #0d0d0e;
-    width: 50%;
+    width: 80%;
 }
 
 .headerPrincipal-nav-link{
@@ -31,8 +31,23 @@ body{
     flex-wrap: wrap;
 }
 
+.contenedorHeader{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedorHeader a{
+    position: relative;
+    max-height: 20px;
+    overflow: hidden;
+    transition: all 1s;
+    margin-top: 1rem;
+}
+
 .tituloHeader{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 .tituloHeader:hover{
