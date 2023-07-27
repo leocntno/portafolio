@@ -6,3 +6,13 @@ document.querySelector(".contenedorCertificados").addEventListener("click",funct
 document.querySelector(".contenedorProyecto").addEventListener("click",function(){
   document.querySelector(".contenedorProyecto h2").classList.toggle("show");
 })
+
+
+document.querySelector(".contenedorProyectoDos").addEventListener("click",function(){
+  document.querySelector(".contenedorProyectoDos h2").classList.toggle("show");
+})
+
+
+document.querySelector(".tituloheader").addEventListener("click",function(){
+  document.querySelector(".headerbar nav").classList.toggle("show");
+})

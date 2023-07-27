@@ -48,9 +48,6 @@
 .contenedorProyecto p{
     width: 350px;
     padding: 20px;
-}
-
-.contenedorProyecto p{
     color: black;
 }
 
@@ -68,6 +65,32 @@
     max-height: 500px;
 }
 
+.contenedorProyectoDos{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedorProyectoDos ul{
+    position: relative;
+    max-height: 10px;
+    overflow: hidden;
+    transition: all 1s;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.contenedorProyectoDos p{
+    width: 350px;
+    padding: 20px;
+    color: black;
+}
+
+.contenedorProyectoDos:hover ul, .contenedorProyectoDos ul.show{
+    max-height: 500px;
+}
+
 
 @media screen and (min-width: 680px){
 
@@ -78,6 +101,10 @@
     }
 
     .contenedorProyecto p{
+        width: 230px;
+    }
+
+    .contenedorProyectoDos p{
         width: 230px;
     }
     
