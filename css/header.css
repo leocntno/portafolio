@@ -85,13 +85,4 @@ body{
     .tituloHeader{
         display: flex;
     }
-
-    .headerBar:hover nav, .headerBar nav.show{
-        max-height: 500px;
-    }
-
-    .tituloHeader:hover {
-        max-height: 500px;
-    }
-
 }   
