@@ -90,13 +90,8 @@ body{
         max-height: 500px;
     }
 
-
-    .hidden {
-        transform: translateY(100%);
-    }
-      
-    .visible {
-        transform: translateY(0);
+    .tituloHeader:hover {
+        max-height: 500px;
     }
 
 }   
