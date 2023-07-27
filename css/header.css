@@ -82,6 +82,10 @@ body{
         margin-top: 1rem;
     }
 
+    #menu.show{
+        max-height: 500px;
+    }
+
     .tituloHeader{
         display: flex;
     }
