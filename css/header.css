@@ -61,6 +61,10 @@ body{
         display: none;
     }
 
+    .btnHeader{
+        display: none;
+    }
+
 }
 
 
@@ -84,6 +88,15 @@ body{
 
     .headerBar:hover nav, .headerBar nav.show{
         max-height: 500px;
+    }
+
+
+    .hidden {
+        transform: translateY(100%);
+    }
+      
+    .visible {
+        transform: translateY(0);
     }
 
 }   
