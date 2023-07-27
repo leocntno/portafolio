@@ -11,8 +11,3 @@ document.querySelector(".contenedorProyecto").addEventListener("click",function(
 document.querySelector(".contenedorProyectoDos").addEventListener("click",function(){
   document.querySelector(".contenedorProyectoDos h2").classList.toggle("show");
 })
-
-
-document.querySelector(".contenedorHeader").addEventListener("click",function(){
-  document.querySelector(".contenedorHeader nav").classList.toggle("show");
-})
