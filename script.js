@@ -8,6 +8,6 @@ document.querySelector(".contenedorProyecto").addEventListener("click",function(
 })
 
 
-document.querySelector(".headerBar span").addEventListener("click",function(){
-  document.querySelector(".headerBar nav").classList.toggle("show");
+document.querySelector(".contenedorProyectoDos").addEventListener("click",function(){
+  document.querySelector(".contenedorProyectoDos h2").classList.toggle("show");
 })
