@@ -86,4 +86,8 @@ body{
         max-height: 500px;
     }
 
+    .show{
+        display: flex;
+    }
+
 }   
